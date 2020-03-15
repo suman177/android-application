@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppStone</string>
+    <string name="info">Please Sign In With Google!</string>
+    <string name="sign_out">Sign out</string>
+</resources>

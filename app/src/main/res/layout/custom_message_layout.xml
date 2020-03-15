@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <TextView
+    android:id="@+id/receiver_message_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="3dp"
+    android:text="receiver messages here"
+        android:background="@drawable/left_chat"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    />
+
+    <TextView
+    android:id="@+id/receiver_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="3dp"
+    android:text="receiver Id"
+    android:padding="10dp"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+        android:background="@drawable/left_chat"
+    />
+    <TextView
+        android:id="@+id/receiver_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="3dp"
+        android:text="receiver time"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/left_chat"
+        />
+
+
+    <TextView
+        android:id="@+id/sender_messsage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="@+id/receiver_message_text"
+        android:text="sender messages here"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/right_chat"
+        />
+
+
+</RelativeLayout>
